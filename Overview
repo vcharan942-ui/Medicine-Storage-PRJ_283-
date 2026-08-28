@@ -1,0 +1,22 @@
+ Medicine Storage Guardian: An IoT-Based Intelligent Medicine Storage System
+
+Project ID:PRJ_282
+Author: Benitha Christinal J  
+Affiliation: School of Computer Science and Engineering, Presidency University Bangalore  
+
+
+
+ Project Overview
+A low-cost, continuous IoT monitoring solution designed to track environmental conditions (temperature and humidity) inside medicine storage units to ensure medication stability and prevent breakdown.
+
+Hardware & Tools
+Microcontroller:ESP32 / ESP8266
+Sensors: DHT22 / DHT11 (Temperature & Humidity)
+Output / Display: OLED Display, Buzzer / LED
+IoT Protocols & Cloud: InfluxDB, Cloud/Server Layer, Email/SMS Alerts
+
+System Architecture
+1. Device Layer:Captures real-time sensor readings.
+2. Gateway & Network Layer: Edge data processing & time-series logging.
+3. Rules Engine:Checks upper/lower threshold boundaries.
+4. Notification Layer:Triggers local audible/visual alarms and digital alerts.
